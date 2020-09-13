@@ -4,7 +4,7 @@ A full stack application to store recipes.
 
 ### TODO
 
-* [ ] Setup Server
+* [x] Setup Server
   * [x] Install Dependencies
   * [x] Install / Setup Linter
   * [x] Setup Express App
