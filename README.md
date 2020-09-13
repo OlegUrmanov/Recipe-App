@@ -5,10 +5,10 @@ A full stack application to store recipes.
 ### TODO
 
 * [ ] Setup Server
-  * [ ] Install Dependencies
-  * [ ] Install / Setup Linter
-  * [ ] Setup Express App
-  * [ ] Setup Not Found and Error Middlewares
+  * [x] Install Dependencies
+  * [x] Install / Setup Linter
+  * [x] Setup Express App
+  * [x] Setup Not Found and Error Middlewares
 * [ ] Model DB
 * [ ] Setup Mongoose Model(s)
 * [ ] POST /logs
