@@ -24,4 +24,12 @@ router.post('/', async (req, res, next) => {
     }
 });
 
+router.delete('/:_id', async (req, res) => {
+    const message = await LogEntry
+     .findByIdAndRemove(req.body._id)
+     .then(() => 'LogEntry deleted');
+   
+    res.json({ message });
+   });
+
 module.exports = router;
